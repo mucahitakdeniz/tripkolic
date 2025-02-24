@@ -18,7 +18,7 @@ export default function Navbar({ onOpenFilter }) {
         height={40}
         className="rounded-full m-auto"
       />
-      <div className="hidden md:flex gap-6 items-center">
+      <div className="flex gap-6 items-center p-4">
         <FaHeart className="text-primary-500 cursor-pointer" />
         <FaShoppingCart className="text-primary-500 cursor-pointer" />
         <FaUser className="text-primary-500 cursor-pointer" />

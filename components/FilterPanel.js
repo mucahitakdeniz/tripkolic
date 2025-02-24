@@ -20,8 +20,8 @@ export default function FilterPanel({
 
   
   return (
-    <div className="p-6 bg-slate-200 rounded-lg relative">
-      <button
+<div className="p-6 bg-slate-200 rounded-lg relative z-50 md:z-auto">
+<button
         className="absolute top-4 right-4 text-gray-600 text-2xl md:hidden"
         onClick={closeFilter}
       >
